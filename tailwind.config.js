@@ -1,0 +1,37 @@
+export default {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  safelist: [
+    'bg-yellow',
+    'bg-yellow/50',
+    'text-yellow',
+    'bg-purple',
+    'bg-purple/50',
+    'text-purple',
+    'bg-green',
+    'bg-green/50',
+    'text-green',
+    'border-green',
+    'bg-dark-green',
+    'bg-dark-green/50',
+    'text-dark-green',
+    'border-dark-green',
+    'bg-pink',
+    'bg-pink/50',
+    'text-pink',
+    'bg-dark-pink',
+    'bg-dark-pink/50',
+    'text-dark-pink',
+    'bg-orange',
+    'text-orange',
+    'bg-blue',
+    'text-blue',
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};

@@ -1,0 +1,284 @@
+[
+    {
+        "title": "Rodando por el Eje Cafetero",
+        "section": "portada",
+        "content": "RODANDO POR EL EJE CAFETERO\n\nGUÍA DE TURISMO CINEMATOGRÁFICO Y AUDIOVISUAL POR LA REGIÓN CAFETERA",
+        "resources": [
+            {
+                "id": "page-1-logo",
+                "type": "svg",
+                "title": "Logotipo de 'Rodando por el Eje Cafetero'",
+                "description": "Logotipo compuesto por una cámara de cine vintage en color negro con detalles blancos y grises, con dos rollos de película en la parte superior. La cámara está sobre un fondo con líneas verdes divergentes simulando un sol radiante.",
+                "alt": "Logotipo de 'Rodando por el Eje Cafetero' con una cámara de cine y un fondo de líneas verdes."
+            },
+            {
+                "id": "page-1-texto-destacado",
+                "type": "svg",
+                "title": "Texto decorativo del título",
+                "description": "Texto en mayúsculas con la frase 'RODANDO POR EL' en color morado y amarillo, con efecto de curvatura superior. La palabra 'EJE CAFETERO' aparece en una tipografía gruesa y morada con bordes definidos."
+            },
+            {
+                "id": "page-1-sol-indigena",
+                "type": "svg",
+                "title": "Decoración de soles indígenas",
+                "description": "Fila de cuatro símbolos indígenas en color morado y amarillo, ubicados en línea debajo del texto 'POR EL'. Cada símbolo representa un sol con patrones geométricos.",
+                "alt": "Serie de cuatro soles indígenas decorativos en la portada de la guía."
+            },
+            {
+                "id": "page-1-separador",
+                "type": "svg",
+                "title": "Separador de diseño cinematográfico",
+                "description": "Separador gráfico en color amarillo con dos líneas horizontales adornadas con pequeños círculos y figuras geométricas, ubicadas debajo del texto 'EJE CAFETERO'."
+            },
+            {
+                "id": "page-1-carretera",
+                "type": "svg",
+                "title": "Ilustración de carretera",
+                "description": "Dibujo de una carretera en perspectiva con líneas amarillas en el centro y laterales verdes, ubicado en la parte inferior de la portada, simbolizando un camino hacia el Eje Cafetero."
+            }
+        ],
+        "page": 1
+    },
+    {
+        "title": "Créditos",
+        "section": "creditos",
+        "content": "CRÉDITOS\n\nGutiérrez Carvajal, Alberto Antonio; Martínez Vélez, Juan Carlos; Vargas Betancour, Sebastián (Clementino Lara); Franco Gutiérrez, Viviana (Quinaya Qumir); Marin Díaz, Iván; Zapata Ocampo, Laura Dahiana; Achicanoy Gómez, Luisa María.\n\nAUTORES\n\nRODANDO POR EL EJE CAFETERO.\nGUÍA DE TURISMO CINEMATOGRÁFICO Y AUDIOVISUAL POR LA REGIÓN CAFETERA\n\nLA CAJA CINE CLUB\nLA FALLA DESTINO FÍLMICO\nMINISTERIO DE LAS CULTURAS, LAS ARTES Y LOS SABERES\n\nAlberto Antonio Gutiérrez\nJuan Carlos Martínez\nDIRECCIÓN GENERAL LA CAJA CINE CLUB\n\nClementino Lara Grajales\nDIRECCIÓN GENERAL LA FALLA DESTINO FÍLMICO\n\nQuinaya Qumir\nTEXTOS Y REVISIÓN\n\nAlberto Antonio Gutiérrez Carvajal\nClementino Lara\nQuinaya Qumir\nFOTOGRAFÍAS\n\nAlberto Antonio Gutiérrez\nJuan Carlos Martínez\nIván Marín Díaz\nClementino Lara\nQuinaya Qumir\nINVESTIGACIÓN AUDIOVISUAL\n\nHumberto Jurado\nIván Marín Díaz\nDISEÑO Y DIAGRAMACIÓN\n\nArtes Visuales, establecimiento comercial\nPÁGINA WEB",
+        "resources": [
+            {
+                "id": "page-2-monte-cafetero",
+                "type": "image",
+                "title": "Fotografía de un monte en el Eje Cafetero",
+                "description": "Imagen lateral de un extenso paisaje montañoso del Eje Cafetero, con cultivos de café organizados en filas, árboles de gran tamaño y un cielo despejado con algunas nubes. En la parte superior izquierda se observa el logotipo de 'Culturas', con una línea roja debajo.",
+                "alt": "Vista panorámica de un monte en el Eje Cafetero con cultivos de café y vegetación diversa."
+            },
+            {
+                "id": "page-2-sol-indigena",
+                "type": "svg",
+                "title": "Ícono de sol indígena cortado a la mitad",
+                "description": "Símbolo gráfico de un sol de estilo indígena en color amarillo, cortado verticalmente por el borde derecho de la página. El sol tiene un círculo central y rayos rectangulares que se extienden hacia el exterior, evocando diseños de culturas ancestrales."
+            }
+        ],
+        "page": 2
+    },
+    {
+        "title": "Tabla de Contenido",
+        "section": "tabla-de-contenido",
+        "content": "TABLA DE CONTENIDO\n\nAGRADECIMIENTOS 05\nPRÓLOGO 06\nINTRODUCCIÓN 07\nESCUCHA LA PLAYLIST 08\n\n1. DESTINOS SILENCIOSOS EN 'MEMORIA' Y 'EL PÁRAMO' 10\n2. DESTINOS ANIMADOS EN 'ENCANTO' 25\n3. DESTINOS DE TELENOVELA EN 'CAFÉ CON AROMA DE MUJER 2021', 'LAS HERMANITAS CALLE' Y 'DOÑA BELLA' 34\n4. DESTINOS CAMPESINOS EN 'LA PASIÓN DE GABRIEL' 52\n5. DESTINOS DE AÑORANZA EN 'CAFÉ CON AROMA DE MUJER 1994' Y 'MILAGRO EN ROMA' 59\n\nANEXO DE MAPAS 73\nDIRECTORIO DE SERVICIOS TURÍSTICOS 92\nGUÍAS DE TURISMO 93\nEXPERIENCIAS TURÍSTICAS 95\nSERVICIO DE HOSPEDAJE 108\nSERVICIO GASTRONÓMICO 117\nREFERENCIAS 125",
+        "resources": [
+            {
+                "id": "page-3-logo-culturas",
+                "type": "svg",
+                "title": "Logotipo de 'Culturas'",
+                "description": "Logotipo en la parte superior izquierda de la página, compuesto por un ícono lineal de una máscara indígena en color negro con el texto 'Culturas' debajo, acompañado de una línea roja y azul.",
+                "alt": "Logotipo de 'Culturas' con una máscara indígena."
+            },
+            {
+                "id": "page-3-flechas-decorativas",
+                "type": "svg",
+                "title": "Flechas decorativas geométricas",
+                "description": "Serie de cinco flechas geométricas en color morado ubicadas en la parte superior derecha de la página, apuntando hacia la derecha. Cada flecha está compuesta por un triángulo y líneas estilizadas."
+            }
+        ],
+        "page": 3
+    },
+    {
+        "title": "Banner La Pasión de Gabriel",
+        "section": "banner-la-pasion-de-gabriel",
+        "content": "'LA PASIÓN DE GABRIEL', FOTO: ALBERTO SIERRA\n\nEsta imagen representa una escena de la película 'La Pasión de Gabriel', mostrando un entorno rural del Eje Cafetero, con personajes en un camino de tierra.",
+        "resources": [
+            {
+                "id": "page-4-fotografia-la-pasion-de-gabriel",
+                "type": "image",
+                "title": "Escena de 'La Pasión de Gabriel'",
+                "description": "Fotografía de una escena de la película 'La Pasión de Gabriel', donde un hombre con barba, boina y camisa blanca camina por un camino de tierra con una bicicleta roja, acompañado de un joven con camisa blanca y pantalón negro comiendo algo. A la derecha, una mujer en bicicleta con blusa roja y short blanco se acerca. El paisaje es rural, con vegetación y cercas de madera.",
+                "alt": "Escena de 'La Pasión de Gabriel' con tres personajes en un camino rural del Eje Cafetero."
+            },
+            {
+                "id": "page-4-logo-rodando-eje-cafetero",
+                "type": "svg",
+                "title": "Logotipo de 'Rodando por el Eje Cafetero'",
+                "description": "Logotipo en color blanco semitransparente ubicado en la parte derecha de la imagen. Contiene una cámara de cine vintage rodeada de líneas que simulan un sol. Debajo del logo, el texto 'Rodando por el Eje Cafetero' aparece en una tipografía gruesa y decorativa."
+            },
+            {
+                "id": "page-4-decoracion-soles-indigenas",
+                "type": "svg",
+                "title": "Fila de soles indígenas decorativos",
+                "description": "Serie de cuatro pequeños íconos de soles indígenas en color blanco, alineados horizontalmente debajo del logo principal."
+            },
+            {
+                "id": "page-4-separador-grafico",
+                "type": "svg",
+                "title": "Separador gráfico cinematográfico",
+                "description": "Línea decorativa con pequeños círculos y figuras geométricas, ubicada debajo del logotipo 'Rodando por el Eje Cafetero'."
+            },
+            {
+                "id": "page-4-carretera",
+                "type": "svg",
+                "title": "Ilustración de carretera en perspectiva",
+                "description": "Dibujo de una carretera estilizada en color blanco con líneas punteadas en el centro, ubicado en la parte inferior del logotipo."
+            }
+        ],
+        "page": 4
+    },
+    {
+        "title": "Agradecimientos",
+        "section": "agradecimientos",
+        "content": "AGRADECIMIENTOS\n\nInstituciones que apoyan:\nMinisterio de cultura y DACMI: Luz Adriana Quigua Gonzáles\nDACMI: Annie Lorena Buitrago. Líder de Convocatorias de la dirección para el área de PNE\nFondo Mixto de Cultura de Boyacá: Juliana Agudelo Olguín\n\nProducciones audiovisuales:\nLa Pasión de Gabriel - Jorge López Abella - Quinto Color\nEl Páramo - Federico Durán Amorocho - Rhayuela Films\nMemoria - Diana María Bustamante Escobar - Burning\nLas Hermanitas Calle - Ángela María Vergara Marulanda - Caracol Televisión S.A.\nMilagro en Roma - RTVE Radio y Televisión Española - Lisandro Duque Naranjo, director.\nCafé con Aroma de Mujer (1994), Café con Aroma de Mujer (2021) y Doña Bella - Luz Marina Toro Suárez - RCN Televisión S.A.\n\nConsejos de Audiovisuales, cine y medios interactivos del Eje Cafetero:\nConsejos de Audiovisuales, cine y medios interactivos de Risaralda.\nConsejos de Audiovisuales, cine y medios interactivos de Caldas.\nConsejos de Audiovisuales, cine y medios interactivos de Quindío.\n\nProloguista:\nDiana María Rodríguez Herrera - Profesora Escuela de Turismo Sostenible - Facultad de Ciencias Ambientales - Universidad Tecnológica de Pereira\n\nOperadores turísticos:\nQuindío:\nHotel Shalom La Dorada - Javier Alonso Ortiz\nHacienda Bambusa\nPijao - Mónica Flórez - La Pequeña Casa. Hospedaje cittaslow\nFilandia - Oficina de turismo municipal\nFilandia - Francia Inés Bautista Jurado - Pedales Coloniales\nCalarcá - Corporación Cívica Fiesta Nacional del Café\n\nCaldas:\nDon Leo\nBase Militar Cerro Gualí - Sargento Israel Cuéllar Páez\nHacienda Venecia - Alejandra Corrales Escobar López Osorio (Gerente comercial). Juan Pablo Echeverry Londoño (Gerente general)\nRiosucio - Juan Esteban Becerra - Fotos de Carnaval de Riosucio\n\nRisaralda:\nApía - Oficina de Turismo de la Alcaldía Municipal\n\nDifusión:\nUniversidad Católica de Pereira\nFestival Cine en las montañas - Juan Francisco Bautista - Director general",
+        "resources": [
+            {
+                "id": "page-5-logo-culturas",
+                "type": "svg",
+                "title": "Logotipo de 'Culturas'",
+                "description": "Logotipo en la parte superior izquierda compuesto por una máscara indígena en color blanco con el texto 'Culturas' debajo, acompañado de una línea roja y azul.",
+                "alt": "Logotipo de 'Culturas' con una máscara indígena."
+            },
+            {
+                "id": "page-5-sello-indigena",
+                "type": "svg",
+                "title": "Sello indígena circular",
+                "description": "Ícono decorativo en la parte superior central de la página, con un diseño circular en color amarillo y detalles concéntricos en morado, inspirado en patrones indígenas."
+            }
+        ],
+        "page": 5
+    },
+    {
+        "title": "Prólogo",
+        "section": "prologo",
+        "content": "PRÓLOGO\n\nCURIOSIDAD, ARTE Y CREATIVIDAD EN LA ESCENA\n\nSiendo la región del Eje Cafetero un destino turístico en formación, con grandes desafíos en materia de sostenibilidad, la presente guía de turismo cinematográfico y audiovisual nos propone la hipótesis de que la región puede convertirse en un destino turístico de carácter fílmico. Y no solo lo propone, sino que da los primeros pasos en su construcción; mapeando lugares, agentes, procesos y contenidos; así como convocando instituciones, autores y comunidades que participaron en la construcción de este trabajo.\n\nValga decir que para conformar un destino turístico se requiere algo más que poseer lugares bellos, emblemáticos o pintorescos. Se requiere ofrecer una serie de servicios encadenados y estandarizados (hoteles, restaurantes, excursiones, atracciones, comunicaciones), los cuales permiten a los turistas disfrutar de su estancia. La promoción, el aseguramiento de la calidad y el desarrollo de un destino turístico suelen estar gestionados por entidades gubernamentales, empresas privadas, habitantes y/o asociaciones locales, que idealmente se unen con el objetivo de atraer turistas bajo principios de sostenibilidad.\n\nSi bien, se trata de una primera edición, la intención detrás de la guía va más allá de hacer un recorrido por locaciones fílmicas. Es una provocación y un proyecto para reflexionar sobre la importancia de la curiosidad, arte y creatividad en la construcción de territorialidades turísticas mucho más conscientes y coherentes. En concreto, invita a considerar el cine y las producciones audiovisuales como poderosas herramientas para generar cohesión social y transformación territorial.\n\nA medida que nos adentramos en sus páginas será inevitable formularnos estas preguntas: ¿De qué manera las historias que se cuentan en la pantalla pueden inspirar un turismo más responsable y con sentido? ¿Cómo puede una película o una producción audiovisual cambiar nuestra percepción de un paisaje? ¿Qué tipo de historias queremos que se cuenten en estos lugares? ¿De qué manera la apertura a nuevos consumos turísticos respeta la autonomía de las comunidades locales?\n\n'Rodar por el Eje Cafetero' nos recuerda la experiencia de los antiguos andariegos provenientes de Antioquía y del Cauca, que en el siglo XIX colonizaron la región que hoy llamamos 'Eje Cafetero'. Según la memoria oral ellos 'rodaban' de un lugar a otro hasta encontrar un lugar propio. 'Rodar' nos habla de un paisaje en movimiento, de la indeterminación, de las múltiples posibilidades y del extrañamiento, propios de las grandes aventuras. Como la narrativa que aquí inicia.\n\nPereira, Febrero 5 de 2025.\n\nDiana María Rodríguez Herrera\nProfesora Escuela de Turismo Sostenible\nDepartamento de Estudios Interdisciplinarios\nFacultad de Ciencias Ambientales\nUniversidad Tecnológica de Pereira",
+        "resources": [
+            {
+                "id": "page-6-logo-culturas",
+                "type": "svg",
+                "title": "Logotipo de 'Culturas'",
+                "description": "Logotipo en la parte superior izquierda de la página, compuesto por una máscara indígena en color negro con el texto 'Culturas' debajo, acompañado de una línea roja y azul.",
+                "alt": "Logotipo de 'Culturas' con una máscara indígena."
+            },
+            {
+                "id": "page-6-icono-indigena",
+                "type": "svg",
+                "title": "Ícono indígena circular decorativo",
+                "description": "Ícono en la parte superior central de la página con un diseño circular en color morado y detalles concéntricos en amarillo, inspirado en símbolos indígenas."
+            }
+        ],
+        "page": 6
+    },
+    {
+        "title": "Introducción",
+        "section": "introduccion",
+        "content": "El Eje Cafetero es una de las regiones más representativas de Colombia, ubicada en el corazón de los Andes, comprende los departamentos de Caldas, Quindío y Risaralda, y se destaca por su geografía montañosa, atravesada por las cordilleras Central y Occidental. Esta ubicación estratégica le otorga una diversidad de ecosistemas únicos que van desde bosques de niebla y páramos hasta valles fértiles, lo que ha facilitado el desarrollo de una agricultura pujante, con el café como su producto más emblemático. En este sentido, la región es conocida como la cuna del café colombiano, y sus paisajes, patrimonio cultural y biodiversidad le han valido el reconocimiento de la UNESCO como Patrimonio de la Humanidad en 2011.\n\n[...]",
+        "resources": [
+            {
+                "id": "page-7-logo-culturas",
+                "type": "svg",
+                "title": "Logotipo de 'Culturas'",
+                "description": "Logotipo en la parte superior izquierda compuesto por una máscara indígena en color blanco con el texto 'Culturas' debajo, acompañado de una línea roja y azul.",
+                "alt": "Logotipo de 'Culturas' con una máscara indígena."
+            },
+            {
+                "id": "page-7-sello-indigena",
+                "type": "svg",
+                "title": "Sello indígena circular",
+                "description": "Ícono decorativo en la parte superior central de la página, con un diseño circular en color amarillo y detalles concéntricos en morado, inspirado en patrones indígenas."
+            }
+        ],
+        "page": 7
+    },
+    {
+        "title": "Escucha la Playlist",
+        "section": "playlist",
+        "content": "ESCUCHA LA PLAYLIST:\nRODANDO POR EL EJE CAFETERO\n\nhttps://open.spotify.com/playlist/6oJEGmeordhwddO4uHnxX-U?si=R5_YOYp-RtSPCI8THF9LRg",
+        "resources": [
+            {
+                "id": "page-8-logo-culturas",
+                "type": "svg",
+                "title": "Logotipo de 'Culturas'",
+                "description": "Logotipo en la parte superior izquierda compuesto por una máscara indígena en color blanco con el texto 'Culturas' debajo, acompañado de una línea roja y azul.",
+                "alt": "Logotipo de 'Culturas' con una máscara indígena."
+            },
+            {
+                "id": "page-8-logo-rodando",
+                "type": "svg",
+                "title": "Logotipo de 'Rodando por el Eje Cafetero'",
+                "description": "Logotipo compuesto por una cámara de cine vintage en color negro con detalles blancos y grises, con dos rollos de película en la parte superior. La cámara está sobre un fondo con líneas verdes divergentes simulando un sol radiante.",
+                "alt": "Logotipo de 'Rodando por el Eje Cafetero' con una cámara de cine y un fondo de líneas verdes."
+            },
+            {
+                "id": "page-8-reproductor-spotify",
+                "type": "svg",
+                "title": "Reproductor de Spotify",
+                "description": "Ilustración de un reproductor de Spotify con la portada de 'Rodando por el Eje Cafetero', acompañado de botones de reproducción, aleatorio y confirmación.",
+                "alt": "Ilustración de un reproductor de Spotify con la portada de la guía."
+            },
+            {
+                "id": "page-8-spotify-url",
+                "type": "url",
+                "title": "Enlace a la Playlist de Spotify",
+                "description": "Enlace directo a la playlist oficial de 'Rodando por el Eje Cafetero' en Spotify.",
+                "url": "https://open.spotify.com/playlist/6oJEGmeordhwddO4uHnxX-U?si=R5_YOYp-RtSPCI8THF9LRg"
+            }
+        ],
+        "page": 8
+    },
+    {
+        "title": "Destinos Silenciosos en 'Memoria' y 'El Páramo'",
+        "section": "destinos-silenciosos",
+        "content": "Fotografía de un camino en el Eje Cafetero, donde un vehículo tipo Jeep avanza por una carretera rodeada de vegetación exuberante.",
+        "resources": [
+            {
+                "id": "page-9-fotografia-carretera",
+                "type": "image",
+                "title": "Fotografía de carretera en el Eje Cafetero",
+                "description": "Imagen aérea de un Jeep verde con capota negra recorriendo una carretera curvada en el Eje Cafetero, rodeado de vegetación, árboles de gran tamaño y algunas construcciones rústicas en el fondo.",
+                "alt": "Fotografía aérea de un Jeep recorriendo una carretera rodeada de vegetación en el Eje Cafetero."
+            },
+            {
+                "id": "page-9-logo-culturas",
+                "type": "svg",
+                "title": "Logotipo de 'Culturas'",
+                "description": "Logotipo en la parte superior izquierda compuesto por una máscara indígena en color blanco con el texto 'Culturas' debajo, acompañado de una línea roja y azul.",
+                "alt": "Logotipo de 'Culturas' con una máscara indígena."
+            }
+        ],
+        "page": 9
+    },
+    {
+        "title": "Destinos Silenciosos en 'Memoria' y 'El Páramo'",
+        "section": "destinos-silenciosos",
+        "content": "1. DESTINOS SILENCIOSOS EN 'MEMORIA' Y 'EL PÁRAMO'\n\nTu viaje entre los largometrajes 'Memoria' y 'El Páramo' comienza en una vía llena de señales en donde puede leerse una y otra vez: 'Paisaje cultural cafetero', sobre ellas vuelan parapentistas y Tangaras. Tu mano te sostiene desde una fría varilla de metal, vas de pie, pero no estás dentro de un bus, otras diez personas están sentadas muy juntas o colgando de un Jeep.\n\nYa en Pijao es tarde, un frío de 15 grados te recuerda que debes comer, todos bajan del Jeep y comen arepa sentados en el parque. Más tarde te hospedas en La Pequeña casa, allí te cuentan que hace unos días el director de cine Apichatpong Weerasethakul se hospedó en la misma habitación.\n\nAl día siguiente despiertas sin afán, sucumbiendo al encanto de la primera 'ciudad lenta' de América Latina. Caminas cada vez más adentro del Quindío y te recuestas en el prado junto a Jessica, la pálida protagonista de 'Memoria'. El silencio les permite escuchar el eco de sonidos prehistóricos de la tierra.\n\nContinúa tu viaje hasta el otro lado del Eje Cafetero y descubre dónde puedes hacer un roadtrip de páramo.",
+        "resources": [
+            {
+                "id": "page-10-logo-culturas",
+                "type": "svg",
+                "title": "Logotipo de 'Culturas'",
+                "description": "Logotipo en la parte superior izquierda de la página, compuesto por una máscara indígena en color blanco con el texto 'Culturas' debajo, acompañado de una línea roja y azul.",
+                "alt": "Logotipo de 'Culturas' con una máscara indígena."
+            },
+            {
+                "id": "page-10-logo-rodando",
+                "type": "svg",
+                "title": "Logotipo de 'Rodando por el Eje Cafetero'",
+                "description": "Logotipo en color morado ubicado en la parte izquierda de la página. Contiene una cámara de cine vintage rodeada de líneas que simulan un sol. Debajo del logo, el texto 'Rodando por el Eje Cafetero' aparece en una tipografía gruesa y decorativa.",
+                "alt": "Logotipo de 'Rodando por el Eje Cafetero' con una cámara de cine y líneas decorativas."
+            },
+            {
+                "id": "page-10-decoracion-soles-indigenas",
+                "type": "svg",
+                "title": "Fila de soles indígenas decorativos",
+                "description": "Serie de cuatro pequeños íconos de soles indígenas en color morado, alineados horizontalmente debajo del logo principal."
+            },
+            {
+                "id": "page-10-separador-grafico",
+                "type": "svg",
+                "title": "Separador gráfico cinematográfico",
+                "description": "Línea decorativa con pequeños círculos y figuras geométricas, ubicada debajo del logotipo 'Rodando por el Eje Cafetero'."
+            },
+            {
+                "id": "page-10-carretera",
+                "type": "svg",
+                "title": "Ilustración de carretera en perspectiva",
+                "description": "Dibujo de una carretera estilizada en color morado con líneas punteadas en el centro, ubicado en la parte inferior del logotipo."
+            }
+        ],
+        "page": 10
+    }    
+]

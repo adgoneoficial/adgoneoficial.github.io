@@ -1,0 +1,43 @@
+{
+  "name": "adgoneoficial",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": {
+    "name": "jcastanodev"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && shx cp dist/index.html dist/404.html",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.5",
+    "@react-three/fiber": "^9.1.0",
+    "@tailwindcss/vite": "^4.0.11",
+    "framer-motion": "^12.35.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.3.0",
+    "tailwindcss": "^4.0.11",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^25.3.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.3",
+    "shx": "^0.4.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}
