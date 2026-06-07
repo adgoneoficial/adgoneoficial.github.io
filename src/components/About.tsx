@@ -5,6 +5,8 @@ const instagramUrls = [
     'https://www.instagram.com/p/DRxqBW5jwb8/',
     'https://www.instagram.com/p/DPxb97ODAMK/',
     'https://www.instagram.com/p/DOcxY7_jcSx/',
+    'https://www.instagram.com/p/DOMQKJVj1w1/',
+    'https://www.instagram.com/reel/DN1XhqS3kT5/',
 ];
 
 const youtubeUrls = [
