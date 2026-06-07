@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(() => {
   return {
     plugins: [react()],
-    base: '/',
+    base: process.env.VITE_BASE_URL ?? '/',
     build: {
       target: 'es2019',
       chunkSizeWarningLimit: 1000,
