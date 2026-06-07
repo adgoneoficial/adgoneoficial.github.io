@@ -1,0 +1,62 @@
+[
+    {
+        "pageNumber": 1,
+        "pageTitle": "Rodando por el Eje Cafetero",
+        "pageSection": "portada",
+        "pageContentSummary": "Guía de turismo cinematográfico y audiovisual por la región cafetera, con elementos gráficos como el logotipo, texto decorativo, símbolos indígenas y una ilustración de carretera."
+    },
+    {
+        "pageNumber": 2,
+        "pageTitle": "Créditos",
+        "pageSection": "creditos",
+        "pageContentSummary": "Lista de autores, colaboradores y créditos de la guía, incluyendo direcciones generales, textos, fotografías, investigación audiovisual y diseño. Incluye una fotografía de un monte cafetero y un ícono de sol indígena."
+    },
+    {
+        "pageNumber": 3,
+        "pageTitle": "Tabla de Contenido",
+        "pageSection": "tabla-de-contenido",
+        "pageContentSummary": "Índice de la guía con secciones como agradecimientos, prólogo, introducción, playlist y destinos turísticos relacionados con películas y series. Incluye el logotipo de 'Culturas' y flechas decorativas."
+    },
+    {
+        "pageNumber": 4,
+        "pageTitle": "Banner La Pasión de Gabriel",
+        "pageSection": "banner-la-pasion-de-gabriel",
+        "pageContentSummary": "Imagen de una escena de la película 'La Pasión de Gabriel', con personajes en un entorno rural del Eje Cafetero. Incluye el logotipo de la guía, soles indígenas decorativos y una ilustración de carretera."
+    },
+    {
+        "pageNumber": 5,
+        "pageTitle": "Agradecimientos",
+        "pageSection": "agradecimientos",
+        "pageContentSummary": "Reconocimientos a instituciones, producciones audiovisuales, consejos de audiovisuales, prologuista y operadores turísticos que apoyaron la creación de la guía. Incluye el logotipo de 'Culturas' y un sello indígena."
+    },
+    {
+        "pageNumber": 6,
+        "pageTitle": "Prólogo",
+        "pageSection": "prologo",
+        "pageContentSummary": "Reflexión sobre la importancia del cine y las producciones audiovisuales en la construcción de un destino turístico fílmico en el Eje Cafetero, con enfoque en la sostenibilidad y la cohesión social. Incluye el logotipo de 'Culturas' y un ícono indígena."
+    },
+    {
+        "pageNumber": 7,
+        "pageTitle": "Introducción",
+        "pageSection": "introduccion",
+        "pageContentSummary": "Descripción de la región del Eje Cafetero, su geografía, biodiversidad y reconocimiento como Patrimonio de la Humanidad por la UNESCO. Incluye el logotipo de 'Culturas' y un sello indígena."
+    },
+    {
+        "pageNumber": 8,
+        "pageTitle": "Escucha la Playlist",
+        "pageSection": "playlist",
+        "pageContentSummary": "Enlace a la playlist oficial de 'Rodando por el Eje Cafetero' en Spotify, acompañado de ilustraciones del reproductor y logotipos de la guía y 'Culturas'."
+    },
+    {
+        "pageNumber": 9,
+        "pageTitle": "Destinos Silenciosos en 'Memoria' y 'El Páramo'",
+        "pageSection": "destinos-silenciosos",
+        "pageContentSummary": "Fotografía de un Jeep recorriendo una carretera en el Eje Cafetero, relacionada con las películas 'Memoria' y 'El Páramo'. Incluye el logotipo de 'Culturas'."
+    },
+    {
+        "pageNumber": 10,
+        "pageTitle": "Destinos Silenciosos en 'Memoria' y 'El Páramo'",
+        "pageSection": "destinos-silenciosos",
+        "pageContentSummary": "Descripción de un viaje inspirado en las películas 'Memoria' y 'El Páramo', con experiencias en Pijao y un roadtrip por el páramo. Incluye el logotipo de la guía, soles indígenas decorativos y una ilustración de carretera."
+    }
+]
