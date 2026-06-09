@@ -3,17 +3,19 @@ import InstagramEmbed from './InstagramEmbed';
 import { useState, type MouseEvent } from 'react';
 
 const instagramUrls = [
-    'https://www.instagram.com/p/DT57CJYEXJG/',
-    'https://www.instagram.com/p/DRxqBW5jwb8/',
+    'https://www.instagram.com/p/C5t2o0lJm10/',
+    'https://www.instagram.com/p/BgrWV6vDYyw/',
     'https://www.instagram.com/p/DPxb97ODAMK/',
     'https://www.instagram.com/p/DOcxY7_jcSx/',
-    'https://www.instagram.com/p/DOMQKJVj1w1/',
+    'https://www.instagram.com/p/DN3dkWV4qxg/',
     'https://www.instagram.com/reel/DN1XhqS3kT5/',
 ];
 
 const youtubeUrls = [
     'https://youtu.be/3ZeN9Fia2v8',
     'https://youtu.be/RWiWoAuTB6k',
+    'https://youtu.be/02V8wBtwtu0',
+    'https://youtu.be/1fAwASLouhY',
 ];
 
 const getYoutubeEmbedUrl = (url: string) => {
@@ -94,8 +96,7 @@ const About = () => {
                     <div className="collage-item collage-historia">
                         <div className="collage-header">Historia</div>
                         <div className="historia-placeholder">
-                            {/* Añade aquí el contenido de la historia (texto, imágenes, etc.) */}
-                            <p className="historia-note">Aquí puedes añadir la historia o cualquier otro contenido.</p>
+                            <img src="/assets/images/angeltv.png" alt="Angel TV" className="historia-fullpage-img" />
                         </div>
                     </div>
                 </div>
@@ -111,7 +112,7 @@ const About = () => {
                         {redirecting && <div className="click-portal" aria-hidden="true" />}
                         <div className="fullpage-redirect-button-content">
                             {redirecting && <span className="redirecting-text">Cargando Alma...</span>}
-                            <h2>Alma de Latino HD</h2>
+                            <img src="/assets/images/almadelatinoshd.png" alt="Alma de Latino HD" className="fullpage-redirect-logo" />
                             <p>Haz clic para entrar al contenido especial.</p>
                         </div>
                     </a>
