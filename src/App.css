@@ -358,12 +358,19 @@ body {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: var(--bg-dark);
   padding: 6rem 2rem 10rem; /* más espacio inferior */
   display: flex;
   align-items: center;
   justify-content: center;
   animation: slideUpIn 0.8s ease-out;
+}
+
+.about-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  pointer-events: none;
 }
 
 .about-container {
@@ -373,6 +380,8 @@ body {
 }
 
 .about-title {
+  position: relative;
+  z-index: 2;
   font-size: 3.5rem;
   font-family: "Bitcount Single", system-ui;
   color: var(--white-aged);
@@ -440,6 +449,235 @@ body {
   color: var(--white-aged);
   opacity: 0.9;
   text-align: center;
+}
+
+/* VIDEO MODAL */
+.video-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
+}
+
+.video-modal-card {
+  position: relative;
+  background: #111;
+  border: 2px solid rgba(0, 255, 200, 0.4);
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 90vw;
+  max-height: 90vh;
+  box-shadow: 0 0 40px rgba(0, 255, 200, 0.2);
+}
+
+.video-modal-close {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  background: var(--red-deep);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.video-modal-player {
+  display: block;
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: 0.5rem;
+}
+
+/* LADO B ZOMBIES */
+.lado-b-wrapper {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5rem;
+  min-height: clamp(300px, 48vw, 500px);
+}
+
+.lado-b-zombies {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  z-index: 2;
+}
+
+.lado-b-cinta-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.lado-b-cinta-margin {
+  flex: 0 0 40px;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+
+.lado-b-cinta-margin:first-child,
+.lado-b-cinta-margin:last-child {
+  border: 2px solid #C9A227;
+}
+
+.lado-b-cinta-strip {
+  flex: 1;
+  background-image: url('/assets/images/cinta2.png');
+  background-size: 500px 100%;
+  background-repeat: repeat-x;
+  background-position-x: 0;
+  animation: scroll-cinta-bg 10s linear infinite;
+}
+
+.lado-b-cinta-overlays {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  will-change: transform;
+  animation: scroll-cinta-overlay 10s linear infinite;
+}
+
+.lado-b-cinta-overlay-unit {
+  flex: 0 0 500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+
+.lado-b-cinta-unit-img {
+  height: 22px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.9;
+  animation: pingpong-margin 0.55s linear infinite;
+}
+
+@keyframes pingpong-margin {
+  0% {
+    transform: translateY(8px) scaleX(1.25) scaleY(0.75);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  48% {
+    transform: translateY(-8px) scaleX(0.8) scaleY(1.25);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: translateY(-8px) scaleX(1.25) scaleY(0.75);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  98% {
+    transform: translateY(8px) scaleX(0.8) scaleY(1.25);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  100% {
+    transform: translateY(8px) scaleX(1.25) scaleY(0.75);
+  }
+}
+
+@keyframes scroll-cinta-bg {
+  from { background-position-x: 0px; }
+  to   { background-position-x: 500px; }
+}
+
+@keyframes scroll-cinta-overlay {
+  from { transform: translateX(0px); }
+  to   { transform: translateX(-500px); }
+}
+
+.lado-b-zombie-img {
+  position: relative;
+  z-index: 2;
+  width: clamp(140px, 22vw, 280px);
+  height: clamp(140px, 22vw, 280px);
+  object-fit: contain;
+  filter: drop-shadow(0 0 16px rgba(0, 255, 200, 0.3));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.lado-b-zombie-link {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.lado-b-zombie-link:hover .lado-b-zombie-img {
+  transform: scale(1.06);
+  filter: drop-shadow(0 0 24px rgba(0, 255, 200, 0.6));
+}
+
+.lado-b-zombie-img:hover {
+  transform: scale(1.06);
+  filter: drop-shadow(0 0 24px rgba(0, 255, 200, 0.6));
+}
+
+/* CIELO REDIRECT CARD */
+.cielo-redirect {
+  width: 100%;
+  margin-bottom: 2.5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  border: 2px solid rgba(255, 160, 50, 0.35);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.cielo-redirect-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.cielo-redirect-link:hover .cielo-redirect-img {
+  transform: scale(1.03);
+  filter: brightness(0.75) saturate(1.2);
+}
+
+.cielo-redirect-img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.cielo-redirect-label {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: var(--white-aged);
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  backdrop-filter: blur(4px);
 }
 
 /* FULLPAGE REDIRECT BUTTON */
@@ -804,6 +1042,11 @@ body {
   background-attachment: fixed;
   position: relative;
   z-index: 1;
+}
+
+.alma-latino-page .redirect-page-section {
+  background: var(--bg-dark) url('/assets/images/Z3%20LOGO%20.jpeg') center / 150% no-repeat;
+  background-attachment: fixed;
 }
 
 .redirect-page-section::before {

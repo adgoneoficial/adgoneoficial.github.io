@@ -26,6 +26,22 @@ const getYoutubeEmbedUrl = (url: string) => {
 const About = () => {
     const navigate = useNavigate();
     const [redirecting, setRedirecting] = useState(false);
+    const [redirectingCielo, setRedirectingCielo] = useState(false);
+    const [showVideoModal, setShowVideoModal] = useState(false);
+
+    const handleZombieClick = (e: MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        setShowVideoModal(true);
+    };
+
+    const handleCieloRedirect = (e: MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        if (redirectingCielo) return;
+        setRedirectingCielo(true);
+        setTimeout(() => {
+            navigate('/cielo');
+        }, 700);
+    };
 
     const handleRedirect = (e: MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
@@ -55,7 +71,85 @@ const About = () => {
     return (
         <section id="about" className="about-section">
             <div className="about-container">
-                <h2 className="about-title">Lado B</h2>
+                <div className="lado-b-wrapper">
+                    <div className="lado-b-cinta-bg" aria-hidden="true">
+                        <div className="lado-b-cinta-margin">
+                            <div className="lado-b-cinta-overlays">
+                                {Array.from({ length: 20 }).map((_, i) => (
+                                    <div key={i} className="lado-b-cinta-overlay-unit">
+                                        {Array.from({ length: 12 }).map((_, j) => (
+                                            <img
+                                                key={j}
+                                                src="/assets/images/parzombieshd.png"
+                                                alt=""
+                                                className="lado-b-cinta-unit-img"
+                                                style={{ animationDelay: Math.floor(j / 3) % 2 === 0 ? '0s' : '-0.275s' }}
+                                            />
+                                        ))}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                        <div className="lado-b-cinta-strip" />
+                        <div className="lado-b-cinta-margin">
+                            <div className="lado-b-cinta-overlays">
+                                {Array.from({ length: 20 }).map((_, i) => (
+                                    <div key={i + 20} className="lado-b-cinta-overlay-unit">
+                                        {Array.from({ length: 12 }).map((_, j) => (
+                                            <img
+                                                key={j}
+                                                src="/assets/images/parzombieshd.png"
+                                                alt=""
+                                                className="lado-b-cinta-unit-img"
+                                                style={{ animationDelay: Math.floor(j / 3) % 2 === 0 ? '0s' : '-0.275s' }}
+                                            />
+                                        ))}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                    <h2 className="about-title">Lado B</h2>
+                    <div className="lado-b-zombies">
+                        <a
+                            href="#"
+                            className="lado-b-zombie-link"
+                            onClick={handleZombieClick}
+                        >
+                            <img src="/assets/images/angelzombiehd.png" alt="Angel Zombie" className="lado-b-zombie-img" />
+                        </a>
+                        <img src="/assets/images/jhonaszombiehd.png" alt="Jhonas Zombie" className="lado-b-zombie-img" />
+                    </div>
+                </div>
+
+                {showVideoModal && (
+                    <div className="video-modal-overlay" onClick={() => setShowVideoModal(false)}>
+                        <div className="video-modal-card" onClick={e => e.stopPropagation()}>
+                            <button className="video-modal-close" onClick={() => setShowVideoModal(false)}>✕</button>
+                            <video
+                                src="/assets/images/vsalesita.mp4"
+                                controls
+                                autoPlay
+                                className="video-modal-player"
+                            />
+                        </div>
+                    </div>
+                )}
+
+                <div className="cielo-redirect">
+                    <a
+                        href="/cielo"
+                        className={`cielo-redirect-link${redirectingCielo ? ' clicked' : ''}`}
+                        onClick={handleCieloRedirect}
+                        aria-busy={redirectingCielo}
+                    >
+                        {redirectingCielo && <div className="click-overlay" />}
+                        {redirectingCielo && <div className="click-portal" aria-hidden="true" />}
+                        <img src="/assets/images/cielo1.png" alt="Cielo" className="cielo-redirect-img" />
+                        {redirectingCielo && <span className="redirecting-text">Cargando...</span>}
+                        <p className="cielo-redirect-label">Haz clic para explorar</p>
+                    </a>
+                </div>
 
                 <div className="collage-grid">
                     {/* Imágenes */}
