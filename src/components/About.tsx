@@ -2,6 +2,8 @@ import { useNavigate } from 'react-router-dom';
 import InstagramEmbed from './InstagramEmbed';
 import { useState, type MouseEvent } from 'react';
 
+const igImages = Array.from({ length: 35 }, (_, i) => `/assets/images/ig/${i + 1}.png`);
+
 const instagramUrls = [
     'https://www.instagram.com/p/C5t2o0lJm10/',
     'https://www.instagram.com/p/BgrWV6vDYyw/',
@@ -27,7 +29,17 @@ const About = () => {
     const navigate = useNavigate();
     const [redirecting, setRedirecting] = useState(false);
     const [redirectingCielo, setRedirectingCielo] = useState(false);
+    const [redirectingZed, setRedirectingZed] = useState(false);
     const [showVideoModal, setShowVideoModal] = useState(false);
+    const [zombieClicking, setZombieClicking] = useState(false);
+
+    const handleZombieButtonClick = () => {
+        setZombieClicking(true);
+        setTimeout(() => {
+            setZombieClicking(false);
+            setShowVideoModal(true);
+        }, 600);
+    };
 
     const handleZombieClick = (e: MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
@@ -40,6 +52,15 @@ const About = () => {
         setRedirectingCielo(true);
         setTimeout(() => {
             navigate('/cielo');
+        }, 700);
+    };
+
+    const handleZedRedirect = (e: MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        if (redirectingZed) return;
+        setRedirectingZed(true);
+        setTimeout(() => {
+            navigate('/mivida');
         }, 700);
     };
 
@@ -90,7 +111,15 @@ const About = () => {
                                 ))}
                             </div>
                         </div>
-                        <div className="lado-b-cinta-strip" />
+                        <div className="lado-b-cinta-strip">
+                            <div className="cinta-ig-scroll">
+                                {[...igImages, ...igImages].map((src, idx) => (
+                                    <div key={idx} className="cinta-ig-frame">
+                                        <img src={src} alt="" className="cinta-ig-img" />
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
                         <div className="lado-b-cinta-margin">
                             <div className="lado-b-cinta-overlays">
                                 {Array.from({ length: 20 }).map((_, i) => (
@@ -109,17 +138,15 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="zombie-below-cinta">
+                    <button className="corner-zombie" onClick={handleZombieButtonClick}>
+                        <img src="/assets/images/angelzombiehd.png" alt="Angel Zombie" className={zombieClicking ? 'zombie-clicking' : ''} />
+                    </button>
                     <h2 className="about-title">Lado B</h2>
-                    <div className="lado-b-zombies">
-                        <a
-                            href="#"
-                            className="lado-b-zombie-link"
-                            onClick={handleZombieClick}
-                        >
-                            <img src="/assets/images/angelzombiehd.png" alt="Angel Zombie" className="lado-b-zombie-img" />
-                        </a>
-                        <img src="/assets/images/jhonaszombiehd.png" alt="Jhonas Zombie" className="lado-b-zombie-img" />
-                    </div>
+                    <button className="corner-zombie" onClick={handleZombieButtonClick}>
+                        <img src="/assets/images/jhonas.png" alt="Jhonas Zombie" className={zombieClicking ? 'zombie-clicking' : ''} />
+                    </button>
                 </div>
 
                 {showVideoModal && (
@@ -151,9 +178,26 @@ const About = () => {
                     </a>
                 </div>
 
+                <div className="fullpage-redirect zed-fullpage" style={{ background: '#0a0a0a', borderColor: 'rgba(255,255,255,0.1)' }}>
+                    {redirectingZed && <div className="click-overlay" />}
+                    {redirectingZed && <div className="click-portal" aria-hidden="true" />}
+                    <div className="fullpage-redirect-button-content">
+                        {redirectingZed && <span className="redirecting-text">Cargando...</span>}
+                        <a
+                            href="/mivida"
+                            className={`fullpage-redirect-link${redirectingZed ? ' clicked' : ''}`}
+                            onClick={handleZedRedirect}
+                            aria-busy={redirectingZed}
+                        >
+                            <img src="/assets/images/caratula 1.png" alt="El Olimpo" className="fullpage-redirect-logo" />
+                        </a>
+                        <p>Haz clic para entrar al contenido especial.</p>
+                    </div>
+                </div>
+
                 <div className="collage-grid">
                     {/* Imágenes */}
-                    <div className="collage-item collage-images">
+                    <div id="gallery" className="collage-item collage-images">
                         <div className="collage-header">Galería</div>
                         <div className="images-placeholder">
                             {instagramUrls.map((url) => (
@@ -165,7 +209,7 @@ const About = () => {
                     </div>
 
                     {/* Videos */}
-                    <div className="collage-item collage-videos">
+                    <div id="videos" className="collage-item collage-videos">
                         <div className="collage-header">Videos</div>
                         <div className="videos-placeholder">
                             {youtubeUrls.map((url) => {
@@ -187,7 +231,7 @@ const About = () => {
                     </div>
                     
                     {/* Historia (nuevo apartado) */}
-                    <div className="collage-item collage-historia">
+                    <div id="historia" className="collage-item collage-historia">
                         <div className="collage-header">Historia</div>
                         <div className="historia-placeholder">
                             <img src="/assets/images/angeltv.png" alt="Angel TV" className="historia-fullpage-img" />
@@ -195,21 +239,20 @@ const About = () => {
                     </div>
                 </div>
                 {/* Botón grande fullpage al final: acción de redirección a Alma de Latino HD */}
-                <div className="fullpage-redirect">
-                    <a
-                        href="/almadelatinohd"
-                        className={`fullpage-redirect-link${redirecting ? ' clicked' : ''}`}
-                        onClick={handleRedirect}
-                        aria-busy={redirecting}
-                    >
-                        {redirecting && <div className="click-overlay" />}
-                        {redirecting && <div className="click-portal" aria-hidden="true" />}
-                        <div className="fullpage-redirect-button-content">
-                            {redirecting && <span className="redirecting-text">Cargando Alma...</span>}
+                <div id="almadelatinohd" className="fullpage-redirect">
+                    {redirecting && <div className="click-overlay" />}
+                    {redirecting && <div className="click-portal" aria-hidden="true" />}
+                    <div className="fullpage-redirect-button-content">
+                        <a
+                            href="/almadelatinohd"
+                            className={`fullpage-redirect-link${redirecting ? ' clicked' : ''}`}
+                            onClick={handleRedirect}
+                            aria-busy={redirecting}
+                        >
                             <img src="/assets/images/almadelatinoshd.png" alt="Alma de Latino HD" className="fullpage-redirect-logo" />
-                            <p>Haz clic para entrar al contenido especial.</p>
-                        </div>
-                    </a>
+                        </a>
+                        <p>Haz clic para entrar al contenido especial.</p>
+                    </div>
                 </div>
             </div>
         </section>

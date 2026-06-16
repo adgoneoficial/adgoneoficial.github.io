@@ -29,11 +29,11 @@ const Home = () => {
             {/* Botón Play CD */}
             {showPlayBtn && (
                 <div style={{
-                    position: 'fixed',
+                    position: 'absolute',
                     top: 0,
                     left: 0,
-                    width: '100vw',
-                    height: '100vh',
+                    width: '100%',
+                    height: '100%',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -57,6 +57,10 @@ const Home = () => {
                 <div className="navbar__links">
                     <a href="#home" onClick={(e) => { e.preventDefault(); handleSmoothScroll('#home'); }}>Portada</a>
                     <a href="#about" onClick={(e) => { e.preventDefault(); handleSmoothScroll('#about'); }}>Lado B</a>
+                    <a href="#gallery" onClick={(e) => { e.preventDefault(); handleSmoothScroll('#gallery'); }}>Galería</a>
+                    <a href="#videos" onClick={(e) => { e.preventDefault(); handleSmoothScroll('#videos'); }}>Videos</a>
+                    <a href="#historia" onClick={(e) => { e.preventDefault(); handleSmoothScroll('#historia'); }}>Historia</a>
+                    <a href="#almadelatinohd" onClick={(e) => { e.preventDefault(); handleSmoothScroll('#almadelatinohd'); }}>Alma de Latino HD</a>
                 </div>
             </div>
 
@@ -82,7 +86,7 @@ const Home = () => {
                 <div className="stage__images">
                     <img className="stage__img" src="/assets/images/angelzombiehd.png" alt="Angel" />
                     <img className="stage__img stage__img--parzombies" src="/assets/images/parzombieshd.png" alt="Par Zombies" />
-                    <img className="stage__img stage__img--jhonas" src="/assets/images/jhonaszombiehd.png" alt="Jhonas" />
+                    <img className="stage__img stage__img--jhonas" src="/assets/images/jhonas.png" alt="Jhonas" />
                 </div>
                 <div className="stage__subtitle">
                     <div onClick={() => handleSmoothScroll('#about')} style={{ cursor: 'pointer' }}>Ver más</div>
