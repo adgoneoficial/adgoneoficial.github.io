@@ -41,11 +41,6 @@ const About = () => {
         }, 600);
     };
 
-    const handleZombieClick = (e: MouseEvent<HTMLAnchorElement>) => {
-        e.preventDefault();
-        setShowVideoModal(true);
-    };
-
     const handleCieloRedirect = (e: MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
         if (redirectingCielo) return;
